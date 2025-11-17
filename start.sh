@@ -11,6 +11,7 @@ else
     echo "Starting backend..."
     cd backend
     source venv/bin/activate
+    export FLASK_ENV=development
     nohup python api/app.py > /tmp/backend.log 2>&1 &
     cd ..
     echo "✅ Backend started on http://localhost:5000"
