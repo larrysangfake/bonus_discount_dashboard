@@ -1,0 +1,90 @@
+.discount-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.discount-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.discount-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.supermarket-badge {
+  background: #1a73e8;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.discount-badge {
+  background: #f44336;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.discount-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.product-name {
+  font-size: 1.25rem;
+  margin: 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.category {
+  color: #666;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 1rem;
+}
+
+.discount-price {
+  color: #2e7d32;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.description {
+  color: #555;
+  font-size: 0.9rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.validity {
+  color: #888;
+  font-size: 0.8rem;
+  margin-top: auto;
+}
