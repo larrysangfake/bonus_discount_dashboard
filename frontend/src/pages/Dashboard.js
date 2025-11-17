@@ -22,6 +22,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     loadDiscounts();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters]);
 
   const loadInitialData = async () => {
